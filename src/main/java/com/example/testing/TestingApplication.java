@@ -7,7 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class TestingApplication {
 
 	public static void main(String[] args) {
-		System.out.println("agag");
+		boolean b = Boolean.valueOf("true1");
+		System.out.println(b);
 		SpringApplication.run(TestingApplication.class, args);
 	}
 

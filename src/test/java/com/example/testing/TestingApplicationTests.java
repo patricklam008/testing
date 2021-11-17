@@ -8,7 +8,8 @@ class TestingApplicationTests {
 
 	@Test
 	void contextLoads() {
-		System.out.println("111111aaaabrd111master");
+		boolean b = Boolean.valueOf("y");
+		System.out.println(b);
 	}
 
 }
